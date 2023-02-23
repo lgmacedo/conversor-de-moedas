@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>Conversor Monetário</p>
+      <input placeholder="Valor em real"></input>
+      <select name="currencies" id="currencies">
+        <option value="dolar">Dólar Americano</option>
+        <option value="euro">Euro</option>
+        <option value="libra">Libra Esterlina</option>
+        <option value="peso">Peso Argentino</option>
+      </select>
+      <button>Converter</button>
     </div>
   );
 }
