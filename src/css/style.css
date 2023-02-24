@@ -1,53 +1,66 @@
-.App{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 .App p{
-    font-weight: 700;
-    font-size: 40px;
-    color: #E35C90;
-    margin-bottom: 30px;
-    text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: #e35c90;
+  margin-top: 20px;
+  text-align: center;
 }
 
-.App input{
-    width: 30%;
-    height: 40px;
-    border: 1px solid grey;
-    border-radius: 6px;
-    padding-left: 10px;
-    font-size: 15px;
-    margin-bottom: 15px;
+.App p:nth-child(1) {
+  font-weight: 700;
+  font-size: 40px;
+  color: #e35c90;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
-.App select{
-    width: 31%;
-    height: 40px;
-    border: 1px solid grey;
-    border-radius: 6px;
-    padding-left: 10px;
-    font-size: 15px;
-    margin-bottom: 15px;
-    appearance: none;
+.App input {
+  width: 30%;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-bottom: 15px;
 }
 
-.App button{
-    width: 31%;
-    height: 30px;
-    border: 2px solid #E35C90;
-    border-radius: 6px;
-    padding-left: 10px;
-    font-size: 15px;
-    margin-bottom: 15px;
-    color: #E35C90;
-    background-color: #ffffff;
-    font-weight: 700;
-    cursor: pointer;
+.App select {
+  width: 31%;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  appearance: none;
+}
+
+.App button {
+  width: 31%;
+  height: 30px;
+  border: 2px solid #e35c90;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #e35c90;
+  background-color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.escondido {
+  display: none;
 }
